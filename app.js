@@ -1,6 +1,6 @@
 
 async function fetchData() {
-    let response = await fetch('/data.json');
+    let response = await fetch('data.json');
     let data = await response.json();
 
     // get higest value
